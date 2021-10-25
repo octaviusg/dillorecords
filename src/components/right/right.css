@@ -1,3 +1,12 @@
 .rightcontainer {
   flex: 2;
+  height: max-content;
+  display: flex;
+  position: sticky;
+  top: 4rem;
+}
+
+.cartContainer {
+  display: flex;
+  align-items: center;
 }

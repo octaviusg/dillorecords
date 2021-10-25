@@ -1,5 +1,13 @@
 .navBarContainer {
   flex: 2;
+  height: max-content;
   display: flex;
   justify-content: flex-end;
+  position: sticky;
+  top: 4rem;
+  margin: 0 20pt 0 0;
+}
+
+.brand {
+  margin-right: 10pt;
 }
