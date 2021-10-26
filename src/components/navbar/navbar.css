@@ -6,8 +6,35 @@
   position: sticky;
   top: 4rem;
   margin: 0 20pt 0 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 12pt;
+}
+
+.navItem {
+  list-style: none;
+
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navItemsub {
+  margin: 1pt 0 1pt 0;
+  padding: 2pt 0 2pt 0;
 }
 
 .brand {
   margin-right: 10pt;
+}
+
+.lowernavigation {
+  margin-top: 16pt;
+  margin-left: 10pt;
+}
+
+.navigation {
+  border-left: 1px solid #ffffff;
+}
+
+.upperNavigation {
+  margin-left: 10pt;
 }

@@ -1,14 +1,14 @@
 import React from "react";
 import NavBar from "../../components/navbar/NavBar";
-import Feed from "../../components/feed/Feed";
+import MediaFeed from "../../components/mediafeed/MediaFeed";
 import Right from "../../components/right/Right";
-import "./home.css";
+import "./media.css";
 
-export default function Home() {
+export default function Media() {
   return (
-    <div className="homeContainer">
+    <div className="mediaContainer">
       <NavBar />
-      <Feed />
+      <MediaFeed />
       <Right />
     </div>
   );

@@ -1,14 +1,14 @@
 import React from "react";
+import "./shop.css";
 import NavBar from "../../components/navbar/NavBar";
-import Feed from "../../components/feed/Feed";
 import Right from "../../components/right/Right";
-import "./home.css";
+import ShopFeed from "../../components/shopfeed/ShopFeed";
 
-export default function Home() {
+export default function Shop() {
   return (
-    <div className="homeContainer">
+    <div className="shopContainer">
       <NavBar />
-      <Feed />
+      <ShopFeed />
       <Right />
     </div>
   );
