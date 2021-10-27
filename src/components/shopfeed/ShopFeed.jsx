@@ -4,7 +4,16 @@ import "./shopfeed.css";
 
 export default function ShopFeed() {
   return (
-    <div className="mediaFeedContainer">
+    <div className="shopFeedContainer">
+      <ShopItem />
+      <ShopItem />
+      <ShopItem />
+      <ShopItem />
+      <ShopItem />
+      <ShopItem />
+      <ShopItem />
+      <ShopItem />
+      <ShopItem />
       <ShopItem />
     </div>
   );

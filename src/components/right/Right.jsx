@@ -6,7 +6,7 @@ export default function Right() {
   return (
     <div className="rightcontainer">
       <div className="cartContainer">
-        <div className="cartTotal">2</div>
+        <div className="cartTotal"> [ 2 ]</div>
         <GiShoppingCart />
       </div>
     </div>

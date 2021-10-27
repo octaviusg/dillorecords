@@ -6,24 +6,72 @@
   position: sticky;
   top: 4rem;
   margin: 0 20pt 0 0;
-  font-family: "Oswald", sans-serif;
-  font-size: 12pt;
+  font-family: Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 9pt;
+  letter-spacing: 1px;
 }
 
 .navItem {
   list-style: none;
-
+  text-transform: uppercase;
   text-decoration: none;
   color: #ffffff;
+  transition-duration: 0.3s;
+}
+
+.navItem:hover {
+  color: rgb(92, 92, 92);
+  transition-duration: 0.4s;
+}
+
+.navItem {
+  font-family: "Abril Fatface", sans-serif;
+  background: linear-gradient(
+    to right,
+    #fedeb5,
+    #f5bbbf,
+    #d4c2df,
+    #bee5e5,
+    #dcedc1
+  );
+  background-size: 200% 200%;
+  animation: rainbow 2s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgb(255, 255, 255);
+  display: block;
+  transition: color 0.2s ease-in-out;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.navItem:hover {
+  color: rgba(0, 0, 0, 0);
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
 }
 
 .navItemsub {
   margin: 1pt 0 1pt 0;
-  padding: 2pt 0 2pt 0;
+  padding: 3pt 0 3pt 6pt;
 }
 
 .brand {
   margin-right: 10pt;
+  width: 14rem;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
 }
 
 .lowernavigation {
@@ -32,7 +80,7 @@
 }
 
 .navigation {
-  border-left: 1px solid #ffffff;
+  border-left: 1px solid #4b4b4b;
 }
 
 .upperNavigation {

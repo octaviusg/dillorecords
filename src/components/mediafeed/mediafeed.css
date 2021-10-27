@@ -1,7 +1,11 @@
 .mediaFeedContainer {
-  flex: 5;
+  flex: 4;
   font-family: "Roboto", sans-serif;
   font-weight: 200;
   font-size: 10pt;
   letter-spacing: 0.5px;
+}
+
+iframe {
+  margin-bottom: 3rem;
 }

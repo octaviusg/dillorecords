@@ -1,8 +1,9 @@
 .rightcontainer {
-  flex: 2;
+  flex: 1;
   height: max-content;
   display: flex;
   position: sticky;
+  margin-left: 1rem;
   top: 4rem;
   font-family: Helvetica, sans-serif;
   font-weight: 200;
