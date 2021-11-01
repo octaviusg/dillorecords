@@ -1,0 +1,18 @@
+.socials {
+  display: flex;
+  width: 160px;
+  margin-bottom: 2rem;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.socialSingleIcon {
+  cursor: pointer !important;
+  padding: 0 8pt 0 8pt;
+  transition: 0.4s;
+}
+
+.socialSingleIcon:hover {
+  color: #666666;
+  transition: 0.4s;
+}

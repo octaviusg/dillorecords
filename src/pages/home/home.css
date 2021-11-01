@@ -4,3 +4,12 @@
   flex-direction: row;
   margin-top: 4em;
 }
+
+@media screen and (max-width: 480px) {
+  .homeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 0;
+  }
+}

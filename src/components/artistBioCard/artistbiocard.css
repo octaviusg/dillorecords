@@ -1,0 +1,35 @@
+.artistCardContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 6rem;
+}
+
+.artistImg {
+  width: 56%;
+  height: max-content;
+  cursor: pointer;
+}
+
+.artistInfo {
+  margin-left: -1.6rem;
+  margin-top: 1rem;
+}
+
+.artistInfo h2 {
+  margin-bottom: 0.5rem;
+}
+
+.artistSocials {
+  float: right;
+  margin-top: 0.5rem;
+}
+
+.artistIcon {
+  padding-left: 1rem;
+  cursor: pointer !important;
+}
+
+.artistIcon:hover {
+  color: #666666;
+  transition: 0.4s;
+}

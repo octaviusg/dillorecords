@@ -1,12 +1,37 @@
-.singleItemContainer {
-  width: 13rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.singleItemContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   cursor: pointer;
 }
 
-.singleItemContainer img {
-  width: 13rem;
+.singleItemContainer {
+  cursor: pointer;
+}
+
+.itemPrice {
+  position: relative;
+  top: 24pt;
+  color: #1b1b1b;
+  background: #ffffff;
+  padding: 3pt 6pt 3pt 6pt;
+  width: max-content;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+.itemdesc {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemTitle {
+  font-weight: bold;
+}
+.itemSubTitle {
+  font-weight: 300;
+}
+
+@media screen and (max-width: 480px) {
+  .singleItemContainers {
+    padding: 1rem;
+  }
 }

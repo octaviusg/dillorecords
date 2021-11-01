@@ -1,0 +1,52 @@
+.blogImg {
+  width: 100%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.blogImg:hover {
+  filter: opacity(65%);
+  transition: 0.3s;
+}
+
+.readMore {
+  margin-top: 1rem;
+  padding: 5pt 12pt;
+  font-size: 10pt;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  width: fit-content;
+  border: solid 1px #ffffff;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.readMore:hover {
+  background: #f0f0f0;
+  color: #000000;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.blogtitle {
+  margin: 0.5rem 0 0.2rem 0;
+}
+
+.blogtitle h2 {
+  line-height: 1.4;
+  font-size: 18pt;
+}
+
+.feedblogbody {
+  width: 400px;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .feedblogbody {
+    max-width: 260px;
+    margin-right: 1rem;
+  }
+}

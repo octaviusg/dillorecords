@@ -5,6 +5,7 @@ import Shop from "./pages/shop/Shop";
 import Contact from "./pages/contact/Contact";
 import Artists from "./pages/artists/Artists";
 import "./App.css";
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {

@@ -1,11 +1,16 @@
 import React from "react";
-import FeedContent from "../feedContent/FeedContent";
+import SingleBlog from "../singleBlog/SingleBlog";
 import "./feed.css";
 
 export default function Feed() {
   return (
     <div className="feedContainer">
-      <FeedContent />
+      <SingleBlog />
+      <SingleBlog />
+      <SingleBlog />
+      <SingleBlog />
+      <SingleBlog />
+      <SingleBlog />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import SocialNav from "../socialNav/SocialNav";
 import "./infofeed.css";
 
 import infoImages1 from "./infoimg.jpeg";
@@ -32,9 +33,11 @@ export default function InfoFeed() {
       </div>
 
       <div className="infoFooter">
-        <div className="socials">Twitter</div>
-        <div className="copyright">All Material © 2021 La Honda Records </div>
-        <div className="address">PO Box 133 Bowling Green, KY 42102</div>
+        <SocialNav />
+        <div className="copyandaddress">
+          <div className="copyright">All Material © 2021 La Honda Records </div>
+          <div className="address">PO Box 133 Bowling Green, KY 42102</div>
+        </div>
       </div>
     </div>
   );

@@ -1,7 +1,39 @@
 .feedContainer {
-  flex: 4;
+  flex: 6;
   font-family: "Roboto", sans-serif;
   font-weight: 200;
-  font-size: 10pt;
+  font-size: 12pt;
+  line-height: 1.6;
   letter-spacing: 0.5px;
+  margin-bottom: 10rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 3rem;
+  grid-auto-rows: auto auto;
+  grid-auto-flow: dense;
+  margin-right: 1rem;
+}
+
+.singlePostContainer:nth-child(1) {
+  grid-area: 1 / 1 / span 2 / span 2;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.singlePostContainer img:nth-child(1) {
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .feedContainer {
+    margin-left: 1rem;
+  }
+
+  .singlePostContainer:nth-child(1) {
+    grid-area: none;
+    display: none;
+    flex-direction: none;
+    align-items: none;
+  }
 }

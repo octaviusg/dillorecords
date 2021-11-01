@@ -1,0 +1,28 @@
+.mobileNavbarContainer {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .mobileNavbarContainer {
+    display: inline;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #111111;
+    padding: 1.8rem 0.8rem 0.8rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mobilebrand {
+    width: 6rem;
+    cursor: pointer;
+  }
+
+  .mobileNavLines {
+    transform: scaleX(-1);
+    margin-right: 0.1rem;
+    font-size: 26pt !important;
+    cursor: pointer;
+  }
+}
